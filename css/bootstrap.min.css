@@ -81,9 +81,9 @@ p {
 
 .brands .bg-img {
     background-image: url(../images/Group\ 94@2x.png);
-    background-position: center;
+    background-position: top 50% center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 104% 15em;
 }
 
 .d-flex .navbar {
@@ -247,7 +247,7 @@ p {
 }
 
 .footer {
-    background-color: #101010;
+    background-color: #0e0e0e;
     color: #fff;
 }
 
@@ -569,8 +569,8 @@ p {
 .brands .fluid-container {
     background-image: url(../images/Group\ 94@2x.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    background-position: top 60% center;
+    background-size: 104% 15em;
 }
 
 .brands .fluid-container .container .image {
@@ -807,4 +807,40 @@ p {
     font-size: 17px;
     font-weight: lighter;
 }
+
+.tech-product .position .image {
+    height: 600px;
+    width: 500px;
+}
+
+.tech-product .position .image .img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Recruit page css start from here */
+.brands .heading-info {
+    font-size: 3rem;
+    opacity: 0.7;
+}
+
+.brands .series .mx-5 .bottom-line {
+    border-bottom: 2px solid #ffffff7d;
+    padding-bottom: 5px;
+}
+
+.brands .series .mx-5 .text-center {
+    border: 1px solid #fff;
+    margin: 15px;
+    padding:20px;
+}
+
+.brands .mx-5 {
+    border: none;
+}
+
+
+.d-flex.py-4.px-5.space-right {
+    border-bottom: 2px solid #ffffff7d;
 }
